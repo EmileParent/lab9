@@ -1,0 +1,102 @@
+[12-Feb-2021 03:48:12 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 150
+[12-Feb-2021 03:48:35 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 150
+[12-Feb-2021 03:48:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4\wp-includes\class-wp-recovery-mode-email-service.php on line 351
+[12-Feb-2021 03:48:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\xampp\htdocs\4w4\wp-includes\class-wp-recovery-mode-email-service.php on line 352
+[12-Feb-2021 03:48:37 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 150
+[19-Feb-2021 15:53:35 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 0 given in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 143
+[19-Feb-2021 15:53:43 UTC] PHP Warning:  filemtime() expects exactly 1 parameter, 0 given in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 143
+[22-Feb-2021 04:54:16 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\functions.php on line 152
+[07-Mar-2021 03:55:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tile() in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\category-cours.php:35
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\category-cours.php on line 35
+[07-Mar-2021 04:20:06 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\category-cours.php on line 48
+[07-Mar-2021 05:35:41 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\category-cours.php on line 43
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  next_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez next_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 14:25:25 UTC] PHP Deprecated:  previous_post est <strong>obsolète</strong> depuis la version 2.0.0 ! Utilisez previous_post_link() à la place. in C:\xampp\htdocs\4w4\wp-includes\functions.php on line 4859
+[07-Mar-2021 16:03:45 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4\wp-includes\class-simplepie.php on line 1728
+[07-Mar-2021 18:39:55 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php on line 66
+[07-Mar-2021 18:40:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_term_by(), 1 passed in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php on line 58 and at least 2 expected in C:\xampp\htdocs\4w4\wp-includes\taxonomy.php:969
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php(58): get_term_by('nav_menu')
+#1 C:\xampp\htdocs\4w4\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#3 C:\xampp\htdocs\4w4\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\page.php(15): get_header()
+#5 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-includes\taxonomy.php on line 969
+[07-Mar-2021 18:41:53 UTC] PHP Notice:  Trying to get property 'count' of non-object in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php on line 59
+[07-Mar-2021 18:44:04 UTC] PHP Notice:  Undefined variable: total_count in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php on line 59
+[07-Mar-2021 18:44:59 UTC] PHP Parse error:  syntax error, unexpected 'wp_get_nav_menu_items' (T_STRING) in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php on line 71
+[07-Mar-2021 18:45:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php on line 71 and at least 1 expected in C:\xampp\htdocs\4w4\wp-includes\nav-menu.php:671
+Stack trace:
+#0 C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php(71): wp_get_nav_menu_items()
+#1 C:\xampp\htdocs\4w4\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\4w4\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#3 C:\xampp\htdocs\4w4\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\page.php(15): get_header()
+#5 C:\xampp\htdocs\4w4\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\4w4\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\4w4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\4w4\wp-includes\nav-menu.php on line 671
+[07-Mar-2021 18:51:04 UTC] PHP Notice:  Undefined index: primary in C:\xampp\htdocs\4w4\wp-content\themes\theme-4w4\header.php on line 72
+[08-Mar-2021 01:34:19 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 3744
+[08-Mar-2021 01:34:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 3746
+[08-Mar-2021 01:34:19 UTC] PHP Notice:  Trying to get property 'slug' of non-object in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 3748
+[08-Mar-2021 01:35:09 UTC] PHP Notice:  Trying to get property 'term_id' of non-object in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 3744
+[08-Mar-2021 01:35:09 UTC] PHP Notice:  Trying to get property 'name' of non-object in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 3746
+[08-Mar-2021 01:35:09 UTC] PHP Notice:  Trying to get property 'slug' of non-object in C:\xampp\htdocs\4w4\wp-includes\class-wp-query.php on line 3748
+[08-Mar-2021 13:27:53 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4\wp-includes\class-simplepie.php on line 1728
+[09-Mar-2021 18:57:43 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4\wp-includes\class-simplepie.php on line 1728
+[14-Mar-2021 02:26:01 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4\wp-includes\class-simplepie.php on line 1728
+[14-Mar-2021 02:36:00 UTC] Erreur de la base de données WordPress Table '4w4.wp_users' doesn't exist pour la requête SELECT * FROM wp_users WHERE user_login = 'admin' LIMIT 1 faite par require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), load_default_textdomain, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[14-Mar-2021 02:36:00 UTC] Erreur de la base de données WordPress Table '4w4.wp_users' doesn't exist pour la requête SELECT * FROM wp_users WHERE user_login = 'admin' LIMIT 1 faite par require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), load_default_textdomain, determine_locale, get_user_locale, wp_get_current_user, _wp_get_current_user, apply_filters('determine_current_user'), WP_Hook->apply_filters, wp_validate_logged_in_cookie, wp_validate_auth_cookie, get_user_by, WP_User::get_data_by
+[14-Mar-2021 02:36:00 UTC] Erreur de la base de données WordPress Table '4w4.wp_options' doesn't exist pour la requête SELECT option_value FROM wp_options WHERE option_name = 'can_compress_scripts' LIMIT 1 faite par require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, wp_widgets_init, do_action('widgets_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Widget_Factory->_register_widgets, WP_Widget->_register, WP_Widget_Text->_register_one, wp_add_inline_script, wp_scripts, WP_Scripts->__construct, WP_Scripts->init, do_action_ref_array('wp_default_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_default_packages, wp_register_tinymce_scripts, script_concat_settings, get_site_option, get_network_option, get_option
+[14-Mar-2021 02:36:00 UTC] Erreur de la base de données WordPress Table '4w4.wp_users' doesn't exist pour la requête SELECT * FROM wp_users WHERE ID = '1' LIMIT 1 faite par require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, DB_Reset_Manager->run, DB_Reset_Manager->load_admin, DB_Reset_Admin->__construct, DB_Resetter->__construct, DB_Resetter->set_user, get_userdata, get_user_by, WP_User::get_data_by
+[14-Mar-2021 02:36:00 UTC] Erreur de la base de données WordPress Table '4w4.wp_posts' doesn't exist pour la requête SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1 faite par do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, WP_Privacy_Policy_Content::text_change_check, current_user_can, WP_User->has_cap, map_meta_cap, get_post, WP_Post::get_instance
+[14-Mar-2021 02:40:32 UTC] PHP Notice: A feed could not be found at `https://feeds.feedburner.com/wpfr`; the status code is `200` and content-type is `text/html; charset=UTF-8` in C:\xampp\htdocs\4w4\wp-includes\class-simplepie.php on line 1728

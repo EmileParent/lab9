@@ -1,0 +1,393 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 06:37:56
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.12                                |8.0.3
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-04-22 18:01:48
+WP VERSION__________: 5.7.1
+DUP VERSION_________: 1.4.0
+DB__________________: 10.4.16
+DB TABLES___________: 13
+DB ROWS_____________: 5,599
+DB FILE SIZE________: 1.83MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 8.0.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/8.0.3
+DOC ROOT____________: "C:/xampp/htdocs/4w4"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/4w4/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/4w4/20210417_4w4_[HASH]_20210422180148_archive.zip"
+SIZE________________: 282.25MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/4w4/20210417_4w4_[HASH]_20210422180148_archive.zip"
+SIZE________________: 282.25MBFile timestamp set to Current: 2021-04-22 18:38:00
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 06:38:00 - RUNTIME: 3.9172 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) [CODE:2|FILE:C:\xampp\htdocs\4w4\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'admin'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:39:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.18 -- Build Server: 10.4.16
+FILE SIZE:	dup-database__[HASH].sql (887.89KB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/4w4/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (136)
+wp_postmeta: (4771)
+wp_posts: (392)
+wp_term_relationships: (212)
+wp_term_taxonomy: (24)
+wp_termmeta: (0)
+wp_terms: (24)
+wp_usermeta: (22)
+wp_users: (1)
+Removed '18' cache/transient rows
+
+INSERT DATA RUNTIME: 0.4358 sec.
+STEP-2 COMPLETE @ 06:39:56 - RUNTIME: 0.4574 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:40:10
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "4W4"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/4w4-2"
+path_new______________: "C:/xampp/htdocs/4w4"
+siteurl_______________: "http://localhost/4w4"
+url_old_______________: "http://localhost:8080/4w4-2"
+url_new_______________: "http://localhost/4w4"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   136][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  4771][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   392][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   212][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  2:"C:\/xampp\/htdocs\/4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2F4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  4:"C:\xampp\htdocs\4w4-2" ===========================> "C:/xampp/htdocs/4w4"
+	SEARCH  5:"C:\\xampp\\htdocs\\4w4-2" ========================> "C:\/xampp\/htdocs\/4w4"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5C4w4-2" ===================> "C%3A%2Fxampp%2Fhtdocs%2F4w4"
+	SEARCH  7:"//localhost:8080/4w4-2" ==========================> "//localhost/4w4"
+	SEARCH  8:"\/\/localhost:8080\/4w4-2" =======================> "\/\/localhost\/4w4"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2F4w4-2" ==================> "%2F%2Flocalhost%2F4w4"
+	SEARCH 10:"https://localhost/4w4" ===========================> "http://localhost/4w4"
+	SEARCH 11:"https:\/\/localhost\/4w4" ========================> "http:\/\/localhost\/4w4"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2F4w4" ===================> "http%3A%2F%2Flocalhost%2F4w4"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:5583 	|	 Cells:29633 
+UPDATED:	Tables:3 	|	 Rows:245 	|	 Cells:249 
+ERRORS:		0 
+RUNTIME:	0.098400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:40:10 - RUNTIME: 0.1472 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

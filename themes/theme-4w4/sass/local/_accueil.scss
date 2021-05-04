@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    // width: 100vw;
+    background-color: #fff;
+    background-image: url(img/fond.png);
+    // overflow-x: hidden;
+}
+
+body.home {
+    width: 100vw;
+    height: 400vh;
+    font-family: $font__accueil;
+    background-color: transparent;
+}
+
+.site-branding {
+    background-image: url(img/fondHeader.png);
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    font-family: 'Montserrat', sans-serif;
+
+
+    .site-title {
+        font-size: clamp(.9rem, #{"-0.875rem + 5.333vw"}, 3.5rem);
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .site-description {
+        font-size: clamp(.7rem, #{"-0.875rem + 8.333vw"}, 2rem);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+.home {
+    
+    .entry-title {
+        font-size : clamp(1.5rem, #{"-0.875rem + 8.333vw"}, 4rem);
+    }
+
+    #primary {
+        margin :0;
+        padding : 0;
+        #post-5 {
+            margin : 0 !important;
+        }
+        .page-header {
+            margin-left : $home__marge_gauche;
+        }
+
+        @include media-desktop{
+            margin : 0;
+        }
+    }
+}
+
+.accueil {
+    
+    font-size : clamp(.7rem, #{"-0.875rem + 8.333vw"}, 1.5rem);
+    width : 100vw;
+    flex-direction: column;
+    justify-content: center;
+
+    ul {
+        list-style-type: none;
+    }
+    .wp-block-image img {
+        //max-width : clamp(12%, #{"20% + 8.333vw"}, 40%);
+         margin: 0 auto;
+    }
+
+}
+
+.nouvelles {
+
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
