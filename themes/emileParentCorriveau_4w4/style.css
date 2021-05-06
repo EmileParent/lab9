@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-Theme Name: theme-4w4
+Theme Name: emileParentCorriveau_4w4
 Theme URI: http://underscores.me/
 Author: Émile Parent Corriveau
 Author URI: http://referenced.ca
@@ -698,7 +698,9 @@ textarea {
 .no-sidebar .site {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas: "header"
+ "main"
+ "footer";
 }
 
 /*
