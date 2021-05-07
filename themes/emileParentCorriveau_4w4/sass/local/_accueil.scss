@@ -21,14 +21,19 @@ body.home {
     flex-direction: column;
     justify-content: space-between;
     align-self: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Sans';
+    outline: 5px rgb(56, 21, 0) solid;
+    color: rgb(255, 253, 219);
 
 
     .site-title {
+        font-family: 'Anton';
         font-size: clamp(.9rem, #{"-0.875rem + 5.333vw"}, 3.5rem);
         font-weight: bold;
         margin: 0;
         padding: 0;
+        color: rgb(255, 253, 219);
+
 
         a {
             text-decoration: none;

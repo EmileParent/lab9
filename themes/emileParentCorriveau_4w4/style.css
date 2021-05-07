@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-Theme Name: emileParentCorriveau_4w4
+Theme Name: theme-4w4
 Theme URI: http://underscores.me/
 Author: Émile Parent Corriveau
 Author URI: http://referenced.ca
@@ -52,6 +52,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Lien généraux */
 /* Lien du menu principal */
 /* Lien du .site-title */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,400;0,600;1,600&display=swap");
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -698,9 +699,7 @@ textarea {
 .no-sidebar .site {
   display: grid;
   grid-template-columns: auto;
-  grid-template-areas: "header"
- "main"
- "footer";
+  grid-template-areas: "header" "main" "footer";
 }
 
 /*
@@ -1210,14 +1209,18 @@ body.home {
   flex-direction: column;
   justify-content: space-between;
   align-self: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans';
+  outline: 5px #381500 solid;
+  color: #fffddb;
 }
 
 .site-branding .site-title {
+  font-family: 'Anton';
   font-size: clamp(0.9rem, -0.875rem + 5.333vw, 3.5rem);
   font-weight: bold;
   margin: 0;
   padding: 0;
+  color: #fffddb;
 }
 
 .site-branding .site-title a {
